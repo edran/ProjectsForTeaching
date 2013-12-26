@@ -42,6 +42,7 @@ prompt = "Calc> "
 def isNumber(n):
     try:
         float(n)
+        # print str(n) + " is a number!"
         return True
     except ValueError:
         return False
@@ -49,13 +50,14 @@ def isNumber(n):
 def op(symbol, x):
 
     if symbol in binary:
-
+        # TODO refactor all of this with recursion over op()
+        #      probably should use trees as well (boy that'd be fun)
         g = raw_input(prompt)
         if isNumber(g):
             y = eval(g) # to deal with floats
         else:
             print "Error!"
-            break
+            return
             
         if symbol == "x":
             return x * y
@@ -74,22 +76,46 @@ def op(symbol, x):
         if symbol == "sin":
             return math.sin(x)
         elif symbol == "cos":
-            return math.cos(x):
+            return math.cos(x)
         elif symbol == "tan":
             return math.tan(x)
         elif symbol == "2^":
             return pow(2, x)
-        
+
+    elif isNumber(symbol):
+        return eval(symbol)
+
+    elif symbol == "":
+        return x
+
+    else:
+        print "Error"
+        return x
             
 def main():
 
     print __doc__
-    
     while 1:
-        g = raw_input(prompt)
-        if isNumber(g):
-            x = g
-        print op(raw_input)
-        
+        while 1:
+            g = raw_input(prompt)
+            if g == "h" or g == "help":
+                print __doc__
+            elif isNumber(g):
+                x = eval(g)
+                print x
+                break
+            elif g == "":
+                print ""
+            else:
+                print "Error, symbol not known. Value required."
+            
+        while 1:
+            if x is not None:
+                x = op(raw_input(prompt), x)
+                print x
+            else:
+                break
 
+if __name__ == "__main__":
 
+    main()
