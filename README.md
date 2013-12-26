@@ -1,26 +1,26 @@
 Mega Project List
 ========
 
-Numbers
+Numbers - 4/18
 ---------
 
 **Find PI to the Nth Digit**
 - Enter a number and have the program generate PI up to that many
 decimal places. Keep a limit to how far the program will go.
 
-**Fibonacci Sequence - DONE**
+**DONE - Fibonacci Sequence**
 - Enter a number and have the program generate the Fibonacci sequence
 to that number or to the Nth number.
 
-**Prime Factorization**
+**DONE - Prime Factorization**
 - Have the user enter a number and find all Prime Factors (if there
   are any) and display them.
 
-**Next Prime Number - DONE**
+**DONE - Next Prime Number**
 - Have the program find prime numbers until the user chooses to stop
   asking for the next one.
 
-**Find Cost of Tile to Cover W x H Floor**
+**DONE - Find Cost of Tile to Cover W x H Floor**
 - Calculate the total cost of tile it would take to cover a floor plan
   of width and height, using a cost entered by the user.
 
@@ -34,7 +34,7 @@ to that number or to the Nth number.
   program will figure out the change and the number of quarters,
   dimes, nickels, pennies needed for the change.
 
-**Binary to Decimal and Back Converter**
+**DONE - Binary to Decimal and Back Converter**
 - Develop a converter to convert a decimal number to binary or a
   binary number to its decimal equivalent.
 
