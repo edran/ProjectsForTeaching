@@ -38,7 +38,7 @@ to that number or to the Nth number.
 - Develop a converter to convert a decimal number to binary or a
   binary number to its decimal equivalent.
 
-**Calculator**
+**DONE - Calculator**
 - A simple calculator to do basic operators. Make it a scientific
   calculator for added complexity.
 
