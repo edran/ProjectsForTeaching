@@ -66,7 +66,7 @@ to that number or to the Nth number.
 - Asks the user to enter a cost and either a country or state tax. It
   then returns the tax plus the total cost with tax.
 
-**Factorial Finder**
+**DONE - Factorial Finder**
 - The Factorial of a positive integer, n, is defined as the product of
   the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is
   defined as being 1. Solve this using both loops and recursion.
