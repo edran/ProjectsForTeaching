@@ -77,7 +77,7 @@ to that number or to the Nth number.
   and division operations can be made with pairs of these operations.)
   Print the results for each operation tested.
 
-**Happy Numbers**
+**DONE - Happy Numbers**
 - A happy number is defined by the following
   process. Starting with any positive integer, replace the number by
   the sum of the squares of its digits, and repeat the process until
@@ -87,7 +87,7 @@ to that number or to the Nth number.
   unhappy numbers. Display an example of your output here. Find first
   8 happy numbers.
 
-**Number Names**
+**DONE - Number Names**
 - Show how to spell out a number in English. You can
   use a preexisting implementation or roll your own, but you should
   support inputs up to at least one million (or the maximum value of
