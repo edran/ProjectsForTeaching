@@ -106,7 +106,7 @@ Classic Algorithms -----------------
 - Implement two types of sorting algorithms: Merge sort
   and bubble sort.
 
-**Closest pair problem**
+**DONE - Closest pair problem**
 - The closest pair of points problem or
   closest pair problem is a problem of computational geometry: given
   *n* points in metric space, find a pair of points with the smallest
