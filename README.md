@@ -112,7 +112,7 @@ Classic Algorithms -----------------
   *n* points in metric space, find a pair of points with the smallest
   distance between them.
 
-**Sieve of Eratosthenes**
+**DONE - Sieve of Eratosthenes**
 - The sieve of Eratosthenes is one of the
   most efficient ways to find all of the smaller primes (below 10
   million or so).
