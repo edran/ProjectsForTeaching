@@ -95,7 +95,8 @@ to that number or to the Nth number.
   less). *Optional: Support for inputs other than positive integers
   (like zero, negative integers, and floating-point numbers).*
 
-Classic Algorithms -----------------
+Classic Algorithms
+-----------------
 
 **DONE - Collatz Conjecture**
 - Start with a number *n > 1*. Find the number
@@ -118,7 +119,8 @@ Classic Algorithms -----------------
   million or so).
 
 
-Graph --------
+Graph
+--------
 
 **Graph from links**
 - Create a program that will
@@ -140,7 +142,8 @@ create a graph or network from a series of links.
 - Create a program that finds the shortest
   path through a graph using its edges.
 
-Data Structures ---------
+Data Structures
+---------
 
 **Inverted index**
 - An [Inverted Index](http://en.wikipedia.org/wiki/Inverted_index) is a
@@ -151,7 +154,8 @@ Data Structures ---------
   search index can be in memory.
 
 
-Text ---------
+Text
+---------
 
 **Reverse a String**
 - Enter a string and the program will reverse it
@@ -234,7 +238,8 @@ Text ---------
   run the regular expression against the source text and return any
   matches or flag errors in the regular expression.
 
-Networking ---------
+Networking
+---------
 
 **FTP Program**
 - A file transfer program which can transfer files
@@ -270,7 +275,8 @@ Networking ---------
   time and check if it is up. If it is down, it will notify you by
   email or by posting a notice on screen.
 
-Classes ---------
+Classes
+---------
 
 **Product Inventory Project**
 - Create an application which manages an
@@ -326,7 +332,8 @@ Classes ---------
   user to create these Person classes and put them into a family tree
   structure. Print out the tree to the screen.
 
-Threading ---------
+Threading
+---------
 
 **Create A Progress Bar for Downloads**
 - Create a progress bar for
@@ -342,7 +349,8 @@ Threading ---------
   things. For added complexity, have one thread handling re-sizing,
   have another bulk renaming of thumbnails etc.
 
-Web ---------
+Web
+---------
 
 **Page Scraper**
 - Create an application which connects to a site and
@@ -399,7 +407,8 @@ Web ---------
   keeps web bots from automatically signing up and spamming. Try
   creating one yourself for online forms.
 
-Files ---------
+Files
+---------
 
 **Quiz Maker**
 - Make an application which takes various questions
@@ -442,7 +451,8 @@ Files ---------
   quickly look up code. *Optional: For extra practice try adding
   syntax highlighting based on the language.*
 
-Databases ---------
+Databases
+---------
 
 **SQL Query Analyzer**
 - A utility application which a user can enter
@@ -495,7 +505,8 @@ Databases ---------
   airline / hotel arrangements, points of interest, budget and
   schedule.
 
-Graphics and Multimedia ---------
+Graphics and Multimedia
+---------
 
 **Slide Show**
 - Make an application that shows various pictures in a
@@ -526,7 +537,8 @@ Graphics and Multimedia ---------
   more information. *Optional: Allow the program to read in the list
   of commands from a file.*
 
-Security -------------
+Security
+-------------
 
 **Caesar cipher**
 - Implement a Caesar cipher, both encoding and
@@ -546,3 +558,5 @@ Sources =======
 *
   [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/)
 * [Rosetta Code](http://rosettacode.org/)
+
+
